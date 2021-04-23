@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página HTML</title>
+    <style>
+        a {
+            color: orange;
+            text-decoration: none;
+        }
+        h1 {
+            text-decoration: underline;
+            color: salmon;
+        }
+        h2 {
+            color: rgb(94, 230, 185);
+        }
+    </style>
 </head>
 <body>
     <header>
+        <fieldset>
         <h1>Cursos</h1>
         
         <h2>Front End Web</h2>
@@ -22,15 +36,18 @@
                 <li><a href="http://www.devmedia.com.br/cursos/php" title="Cursos de PHP">Cursos de PHP</a></li>
             </ul>
         </nav>
+        </fieldset>
     </header>
 
     <main>
+        <fieldset>
         <section>
             <h2>Primeiros passos</h2>
 
             <p>Os cursos de primeiros passos apresentam os conceitos iniciais
                 dentro de uma tecnologia.</p>
-
+        </fieldset>
+        <fieldset>
             <article>
                 <h3>
                     <a href="http://www.devmedia.com.br/cursos/frontendweb/o-que-e-html" title="O que é HTML?">O que é HTML?</a>
@@ -46,7 +63,8 @@
                 <p>Neste cuso conheceremos a HTML.</p>
        
             </article>
-
+        </fieldset>
+        <fieldset>
             <article>
                 <h3>
                     <a href="http://www.devmedia.com.br/cursos/frontendweb/primeira-pagina-em-html"title="Primeira página em HTML">
@@ -62,13 +80,17 @@
                     <p>Neste curso criaremos uma página utilizando a linguagem HTML.</p>
                 </figure>
             </article>
+        </fieldset>
         </section>
-        
+
+        <fieldset>
         <section>
             <h2>Avançando no HTML</h2>
 
             <p>Os cursos avançando apresentam temas mais específicos dentro de uma tecnologia.</p>
+        </fieldset>
 
+        <fieldset>
             <article>
                 <h3>
                     <a href="http://www.devmedia.com.br/cursos/frontendweb
@@ -85,7 +107,9 @@
 
                 <p>Neste curso apresentaremos tags semânticas do html</p>
             </article>
+        </fieldset>
 
+        <fieldset>
             <article>
                 <h3>
                     <a href="http://www.devmedia.com.br/cursos
@@ -102,9 +126,11 @@
 
                 <p>Neste curso conheceremos os atributos introduzidos no HTML5 para acessibilidade na web.</p>
             </article>
+        </fieldset>
         </section>
     </main>
     
+    <fieldset>
     <footer>
         <nav>
             <ul>
@@ -115,5 +141,6 @@
 
         <p>&copy; www.devmedia.com.br</p>
     </footer>
+    </fieldset>
 </body>
 </html>
